@@ -12,6 +12,10 @@
 		EFDF7F501DF16F580096212D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F4E1DF16F580096212D /* Main.storyboard */; };
 		EFDF7F521DF16F580096212D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F511DF16F580096212D /* Assets.xcassets */; };
 		EFDF7F551DF16F580096212D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F531DF16F580096212D /* LaunchScreen.storyboard */; };
+		EFDF7F601DF16FEB0096212D /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F5C1DF16FEB0096212D /* record.png */; };
+		EFDF7F611DF16FEB0096212D /* record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F5D1DF16FEB0096212D /* record@2x.png */; };
+		EFDF7F621DF16FEB0096212D /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F5E1DF16FEB0096212D /* reset.png */; };
+		EFDF7F631DF16FEB0096212D /* reset@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDF7F5F1DF16FEB0096212D /* reset@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		EFDF7F511DF16F580096212D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDF7F541DF16F580096212D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFDF7F561DF16F580096212D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDF7F5C1DF16FEB0096212D /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		EFDF7F5D1DF16FEB0096212D /* record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record@2x.png"; sourceTree = "<group>"; };
+		EFDF7F5E1DF16FEB0096212D /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		EFDF7F5F1DF16FEB0096212D /* reset@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				EFDF7F511DF16F580096212D /* Assets.xcassets */,
 				EFDF7F531DF16F580096212D /* LaunchScreen.storyboard */,
 				EFDF7F561DF16F580096212D /* Info.plist */,
+				EFDF7F5C1DF16FEB0096212D /* record.png */,
+				EFDF7F5D1DF16FEB0096212D /* record@2x.png */,
+				EFDF7F5E1DF16FEB0096212D /* reset.png */,
+				EFDF7F5F1DF16FEB0096212D /* reset@2x.png */,
 			);
 			path = SpeechToTextDemo;
 			sourceTree = "<group>";
@@ -96,7 +108,6 @@
 				TargetAttributes = {
 					EFDF7F461DF16F580096212D = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = RQJ34SPSE5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDF7F611DF16FEB0096212D /* record@2x.png in Resources */,
+				EFDF7F631DF16FEB0096212D /* reset@2x.png in Resources */,
+				EFDF7F621DF16FEB0096212D /* reset.png in Resources */,
+				EFDF7F601DF16FEB0096212D /* record.png in Resources */,
 				EFDF7F551DF16F580096212D /* LaunchScreen.storyboard in Resources */,
 				EFDF7F521DF16F580096212D /* Assets.xcassets in Resources */,
 				EFDF7F501DF16F580096212D /* Main.storyboard in Resources */,
@@ -204,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,8 +274,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RQJ34SPSE5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpeechToTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladysik.SpeechToTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,8 +288,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RQJ34SPSE5;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SpeechToTextDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladysik.SpeechToTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
